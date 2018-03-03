@@ -1,0 +1,927 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+section>div:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+section>div:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+section>div:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+section>div:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 150px;
+    height: 150px;
+    background-color:blue;
+}
+section>div:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color:green;
+}
+section>div:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 150px;
+    height: 150px;
+    background-color:blue;
+}
+section>div:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 150px;
+    height: 150px;
+    background-color:green;
+}
+section>div:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color:blue;
+}
+section>div:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color:green;
+}
+
+
+
+/*  codigo del cuadro arriba a la izaquierda */
+
+
+
+section>div:nth-child(1)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(1)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(1)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(1)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(1)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(1)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(1)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(1)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(1)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+
+
+
+/* codigo centro supeior */
+
+
+section>div:nth-child(2)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(2)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(2)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(2)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(2)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(2)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(2)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(2)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(2)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+
+
+/* codigo superior derecho*/
+
+
+section>div:nth-child(3)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(3)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(3)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(3)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(3)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(3)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(3)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(3)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(3)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+
+
+/* codigo cuadreo centrado izquierdo */
+
+
+section>div:nth-child(4)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(4)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(4)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(4)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(4)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(4)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(4)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(4)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(4)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+
+
+/* codigo del centro  */
+
+
+
+section>div:nth-child(5)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(5)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(5)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(5)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(5)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(5)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(5)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(5)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(5)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+
+
+/* codigo cuadro centrado derecho */
+
+
+
+section>div:nth-child(6)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(6)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(6)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(6)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(6)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(6)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(6)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(6)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(6)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+
+
+/* codigo  cuadro inferior izquierdo */
+section>div:nth-child(7)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(7)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(7)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(7)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(7)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(7)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(7)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(7)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(7)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+} 
+
+/* codigo cuadro  centrado superior */
+section>div:nth-child(8)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(8)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(8)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(8)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(8)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(8)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(8)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(8)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(8)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+
+/* codigo cuadro inferior derecho */
+
+
+
+section>div:nth-child(9)>nav:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(9)>nav:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:  0 auto ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+section>div:nth-child(9)>nav:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  0 ;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+section>div:nth-child(9)>nav:nth-child(4){
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0 ;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(9)>nav:nth-child(5){
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(9)>nav:nth-child(6){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(9)>nav:nth-child(7){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:  0;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
+section>div:nth-child(9)>nav:nth-child(8){
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+}
+section>div:nth-child(9)>nav:nth-child(9){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+}
